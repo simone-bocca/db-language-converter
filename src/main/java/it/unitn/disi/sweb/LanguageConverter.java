@@ -51,6 +51,7 @@ public class LanguageConverter implements ILanguageConverter{
         langUtil = new LanguageUtils();
         ArrayList<Vocabulary> vocabularies2Chars = (ArrayList<Vocabulary>) vocabularyService.readVocabularies(null);
 
+        // Query examples
         //Query query = genericDao.createQuery("UPDATE Vocabulary v SET v.languageCode = 'en' WHERE v.languageCode = 'engl'");
         //Query query = genericDao.createQuery("SELECT v FROM Vocabulary v WHERE v.languageCode=:l");
         //Query query = genericDao.createQuery("DELETE Vocabulary v WHERE v.languageCode = 'eng'");
