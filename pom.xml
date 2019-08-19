@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>it.unitn.disi.sweb</groupId>
+    <artifactId>db-language-converter</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <score.version>2.10.0-SNAPSHOT</score.version>
+        <hibernate.version>5.3.10.Final</hibernate.version>
+    </properties>
+
+    <dependencies>
+
+
+
+        <dependency>
+            <groupId>it.unitn.disi.sweb</groupId>
+            <artifactId>sweb-commons</artifactId>
+            <version>${score.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>it.unitn.disi.sweb</groupId>
+            <artifactId>sweb-kb</artifactId>
+            <version>${score.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.simone-bocca</groupId>
+            <artifactId>language-utils</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>8.4-701.jdbc4</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
